@@ -1,0 +1,42 @@
+body {
+    background-color:rgb(120, 77, 40);
+    }
+    img{
+      width: 200px;
+      height: 200px;
+      border: 1px solid #ddd;
+      border-radius:50%;
+      float: right;
+    }
+    .flex-container {
+        display: flex;
+        flex-direction:vertical;
+        font-size: 30px;
+        text-align: center;
+        background-color: blanchedalmond;
+        width: 1000px;
+        height:1000px;
+        text-align: center;
+      }      
+      .container{
+        display: flex;
+        flex-direction:vertical;
+        font-size: 30px;
+        text-align: center;
+        background-color:grey;
+        width:1000px;
+        height:1000px;
+        text-align: center;
+      }      
+      div{
+        text-align: center;
+      }
+  @media only screen and (min-width:400px) 
+  {
+    body 
+    {
+      background-color:pink;
+        flex-direction:vertical;
+        display: flex;
+    }
+  }
